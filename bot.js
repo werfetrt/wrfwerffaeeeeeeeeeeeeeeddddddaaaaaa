@@ -88,7 +88,7 @@ ${prefix}bans / عدد الاشخاص المبندة
 ${prefix}avatar/صورتك او صورة الي تمنشنو
 ${prefix}embed/يكرر الي تقولو بشكل حلو
 ${prefix}emoji <any things>/لتحويل اي كلمه تقولها الي ايموجي
-https://discordapp.com/api/oauth2/authorize?client_id=560845577273999371&permissions=8&scope=bot
+${prefix}
 ${prefix}inv/لدعوة البوت الى سيرفرك
 ${prefix}support/سيرفر الدعم
 ${prefix}contact/ارسال اقتراح او لمراسلة صاحب البوت
@@ -227,7 +227,7 @@ message.channel.send(`**${message.author.username}, your :credit_card: balance i
 });
 
 client.on('message', async message => {
-    let amount = 250;
+    let amount = 99999999999999999999999999999999999999999999999999999999999999999999999999999999999;
     if(message.content.startsWith(prefix + "daily")) {
     if(message.author.bot) return;
     if(coolDown.has(message.author.id)) return message.channel.send(`**:stopwatch: | ${message.author.username}, your daily :yen: credits refreshes in \`\`1 Day\`\`.**`);
